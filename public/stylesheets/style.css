@@ -6,3 +6,19 @@ body {
 a {
   color: #00B7FF;
 }
+
+#home {
+  background-image: url('/images/cinema.jpg');
+}
+
+.movie-card{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#showtime {
+  display: flex;
+  flex-direction: row;
+}
